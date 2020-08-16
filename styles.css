@@ -1,0 +1,405 @@
+body {
+	margin: 0;
+}
+
+#container {
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/* Header */
+
+.header-icon {
+	display: inline-block;
+	position: absolute;
+	width: 7em;
+	left: 1em;
+}
+
+.heading-list {
+	display: block;
+	padding: 3%;
+	float: right;
+}
+
+/* Poster Section */
+
+.first-image {
+	width: 100%;
+}
+
+.first-paragraph {
+	padding: 10px;
+}
+
+.first-paragraph h1 {
+	font-family: Raleway;
+	font-weight: 700;
+}
+
+.first-paragraph p {
+	padding: 0 50px 50px 30px;
+}
+
+#secondposter {
+	text-align: center;
+	background-color: hsl(240, 75%, 98%);
+	margin-top: -1em;
+	padding-bottom: 2.5em;
+}
+
+.searchbar {
+	width: 280px;
+	height: 30px;
+	padding-left: 20px;
+	border-radius: 2%;
+}
+
+.searchbar::placeholder {
+	text-indent: 20px;
+}
+
+.btn {
+	width: 305px;
+	height: 30px;
+	margin: 10px 0;
+	border-radius: 2%;
+	border: none;
+	color: white;
+	background-color: #3e64ff;
+	font-size: 0.8em;
+}
+
+.btn:hover {
+	background-color: hsl(243, 87%, 12%);
+}
+
+.secondimage {
+	width: 100%;
+	margin: 10% 0;
+}
+
+.curve-image {
+	width: 100%;
+	margin-top: 3em;
+}
+
+.secondposter-header {
+	margin: 1.5em 1em;
+	font-size: 1em;
+	font-family: Raleway;
+	font-weight: 900;
+}
+
+.bottom-paragraph {
+	text-align: left;
+	padding: 0 20px;
+	margin-bottom: 4em;
+}
+
+.secondparagraph {
+	text-align: left !important;
+	margin: 1em;
+	font-size: 0.8em;
+}
+
+.link {
+	font-size: 0.8em;
+	color: #43ab92;
+	text-decoration: none;
+	border-bottom: 2px solid;
+	padding-bottom: 0.8em;
+}
+
+.card {
+	box-shadow: 4px rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 70%;
+	height: 170px;
+	margin: 50px auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px 20px;
+	border-radius: 1%;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote-paragraph {
+	margin: 0;
+	font-size: 0.9em;
+	padding-bottom: 10px;
+}
+
+.quote-picture {
+	border-radius: 100%;
+	width: 40px;
+	position: absolute;
+}
+
+h3.quote-info {
+	float: right;
+	margin: 7px 0 0 0;
+	padding-right: 160px;
+	font-size: 0.8em;
+}
+
+p.quote-info {
+	float: right;
+	margin: 0;
+	padding-right: 147px;
+	font-size: 0.5em;
+}
+
+/* Sign Up section */
+
+.sign-emails {
+	width: auto;
+	height: 320px;
+	background-color: hsl(238, 22%, 44%);
+	padding: 30px 30px;
+	color: #fff;
+}
+
+.sign-emails h1 {
+	font-family: Raleway;
+}
+
+.sign-emails p {
+	padding-bottom: 20px;
+}
+
+.searchbar-2 {
+	width: 220px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+.btn-2 {
+	width: 235px;
+	height: 32px;
+	color: white;
+	background-color: hsl(224, 93%, 58%);
+	padding: 0;
+	border-radius: 0.12em;
+	border: none;
+	font-weight: 900;
+	font-size: 0.7em;
+}
+
+.btn-2:hover {
+	background-color: hsl(243, 87%, 12%);
+}
+
+.searchbar-2::placeholder {
+	color: gray;
+	text-align: justify;
+	font-size: 0.8em;
+	padding-left: 20px;
+}
+
+.ending-class {
+	width: auto;
+	height: auto;
+	background-color: hsl(243, 87%, 12%);
+	color: #fff;
+	text-align: left;
+	padding: 50px 30px 30px 50px;
+}
+
+.footer-img {
+	padding-bottom: 30px;
+}
+
+.ending-class ul {
+	list-style-type: none;
+	margin-left: -40px;
+	line-height: 3;
+}
+
+.social-icons {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.facebook-logo {
+	width: 30px;
+	filter: invert(100%);
+	padding: 5px;
+}
+
+.twitter-logo {
+	width: 30px;
+	filter: invert(100%);
+	padding: 5px;
+}
+
+.instagram-logo {
+	width: 30px;
+	padding: 5px;
+}
+
+@media (min-width: 900px) {
+	body {
+		margin: 0;
+	}
+
+	.header-icon {
+		width: 170px;
+		top: 50px;
+		left: 90px;
+	}
+
+	.header-list {
+		padding: 30px 40px;
+	}
+
+	.heading-list {
+		padding: 0 40px;
+	}
+
+	.first-image {
+		width: 40%;
+		height: auto;
+		position: absolute;
+		right: 100px;
+		top: 200px;
+	}
+
+	.first-paragraph {
+		text-align: left;
+		float: left;
+		width: 600px;
+		height: auto;
+		margin: 150px 150px 100px 80px;
+	}
+
+	.first-paragraph h1 {
+		font-weight: 700;
+		font-size: 2.5em;
+		color: #230444;
+	}
+
+	.first-paragraph p {
+		padding: 0;
+	}
+
+	.btn {
+		width: 175px;
+		height: 35px;
+	}
+
+	#secondposter {
+		height: 600px;
+		position: relative;
+		width: auto;
+	}
+
+	.secondimage {
+		width: 40%;
+		height: auto;
+		position: absolute;
+		margin: 0;
+		right: 80px;
+	}
+
+	.secondposter-header {
+		font-family: Raleway;
+		font-weight: 700px;
+		font-size: 2em;
+		text-align: left;
+		margin: 0;
+		padding-left: 80px;
+	}
+
+	.bottom-paragraph {
+		float: left;
+		text-align: left;
+		padding: 0;
+
+	}
+
+	.only-paragraph {
+		margin: 50px 800px 50px 80px;
+	}
+
+	.card {
+		margin: 0 0 0 80px;
+		width: 400px;
+	}
+
+	/* Sign Emails Paragraph */
+
+	.sign-emails {
+		position: relative;
+		width: auto;
+		height: 250px;
+	}
+
+	.new-paragraph {
+		text-align: left;
+		position: absolute;
+		width: 500px;
+		margin: 40px 0 0 80px;
+	}
+
+	.new-paragraph h1 {
+		font-family: Raleway;
+		font-weight: 700;
+		font-size: 1.7em;
+	}
+
+	.input-emails {
+		float: right;
+		margin-top: 100px;
+		margin-right: 120px;
+	}
+
+	.searchbar-2 {
+		width: 450px;
+		height: 40px;
+	}
+
+	.btn-2 {
+		display: block;
+		width: 200px;
+		height: 40px;
+	}
+
+
+	/* Footer Section */
+	.ending-class {
+		position: absolute;
+		width: 100%;
+		padding: 0;
+		
+	}
+
+	.end-logo {
+		position: absolute;
+		padding: 100px 0 40px 80px;
+		display: inline-block;
+	}
+
+	.aboutus {
+		position: relative;
+		padding: 100px 0 40px 550px;
+		display: inline-block;
+	}
+	.contact-me {
+		position: absolute;
+		padding: 100px 0 40px 350px;
+		display: inline-block;
+	}
+	.social-icons {
+		position: absolute;
+		padding: 160px 0 0 600px;
+		display: inline-block;
+	}
+
+}
